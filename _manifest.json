@@ -6,7 +6,7 @@
   "description": "核验当前QQ回复目标；绑定账号及每个关注账号可独立填写称呼，默认留空。不授予管理员或工具权限。",
   "author": {
     "name": "Sol",
-    "url": "https://example.invalid/Sol"
+    "url": "https://github.com/MWT-D0ZUV/Sol_trusted_identity"
   },
   "license": "MIT",
   "host_application": {
@@ -26,6 +26,6 @@
     ]
   },
   "urls": {
-    "repository": "https://example.invalid/Sol/trusted_identity-candidate"
+    "repository": "https://github.com/MWT-D0ZUV/Sol_trusted_identity"
   }
 }

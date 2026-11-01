@@ -1,5 +1,19 @@
 # Sol.trusted_identity 0.4.1
 
+本次修正插件中心的 Release 收录兼容问题，身份核验、关注称呼和配置迁移逻辑与 0.4.0 一致。
+
+- 仓库及安装包均不包含根目录 `config.toml`，改由宿主根据现有 `config_model = Config` 配置模型生成默认配置。
+- 默认仍关闭，账号、称呼和关注名单仍为空；升级请保留自己的本地配置。
+- 默认配置测试改为验证 SDK 配置归一化的结果，不依赖已移除的配置文件。
+- 同步版本说明、忽略规则和所有文件校验和。
+- 安装包：`Sol_trusted_identity-0.4.1-portable.zip`。验证环境仍为 Host 1.3.19 / SDK 2.21.0。
+
+发布时新建标签 `v0.4.1`，使其指向包含本次全部修订的提交；旧标签 `v0.4.0` 保留。仅修改 main 或替换旧 Release 附件，不会改变旧标签固定指向的源码。
+
+---
+
+# Sol.trusted_identity 0.4.0
+
 - 取消固定专属称呼；绑定账号称呼默认留空，由使用者填写。
 - 每个群聊关注账号可单独编辑QQ与可选称呼，最多50条；重复账号拒绝保存。
 - 原qq_numbers名单自动迁移为QQ与空称呼，显式新空列表优先；兼容Host配置处理顺序。
@@ -9,4 +23,4 @@
 
 下载本Release附带的portable.zip，在MaiBot插件管理页安装。已安装同ID时接口拒绝覆盖，先备份并按宿主更新流程操作。
 
-作者标记与MIT许可沿用Sol；修改、测试、文档及打包由AI（Codex / DeepSeek Harness）协助；非原作者官方审阅认证。项目仓库：https://github.com/MWT-D0ZUV/Sol_trusted_identity。本次仅补齐发布地址与文档，功能及版本仍为0.4.0。
+作者标记与MIT许可沿用Sol；修改、测试、文档及打包由AI（Codex / DeepSeek Harness）协助；非原作者官方审阅认证。项目仓库：https://github.com/MWT-D0ZUV/Sol_trusted_identity。0.4.0 为原功能版本。

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "id": "Sol.trusted_identity",
   "name": "精确身份与群聊特别关注",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "核验当前QQ回复目标；绑定账号及每个关注账号可独立填写称呼，默认留空。不授予管理员或工具权限。",
   "author": {
     "name": "Sol",

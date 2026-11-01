@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "id": "Sol.reply_sanitizer",
+  "name": "回复净化（Reply Sanitizer）",
+  "version": "1.5.3",
+  "description": "清理明确思考标签与已知句首残留标记，提供独立的可选外观过滤；保留代码示例，透传其他回复策略参数。不能保证识别任意自然语言分析。",
+  "author": {
+    "name": "Sol",
+    "url": "https://example.invalid/Sol"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "1.3.19",
+    "max_version": "1.3.19"
+  },
+  "sdk": {
+    "min_version": "2.21.0",
+    "max_version": "2.21.0"
+  },
+  "dependencies": [],
+  "capabilities": [],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "urls": {
+    "repository": "https://example.invalid/Sol/reply_sanitizer"
+  }
+}

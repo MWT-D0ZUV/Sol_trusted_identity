@@ -45,6 +45,6 @@ name = "" # 留空仍可匹配关注，但不指定称呼
 
 发布默认配置不含账号绑定、关注名单或私人称呼。源码包不包含本机路径、API 配置、日志、聊天快照、配置历史或备份；测试使用合成数据。称呼在核验命中后会随请求发送给所用模型服务，请按自己的数据使用要求填写。
 
-作者标记沿用 Sol，许可沿用 MIT。修改、测试、文档与打包由 AI（Codex / DeepSeek Harness）协助，未经原作者官方审阅或发布认证。清单中的 example.invalid 是沿用的无效主页/仓库占位地址，不是真实上游；建立 GitHub 仓库后，应填写自己的真实仓库 URL 并重新打包。
+作者标记沿用 Sol，许可沿用 MIT。修改、测试、文档与打包由 AI（Codex / DeepSeek Harness）协助，未经原作者官方审阅或发布认证。项目仓库：[MWT-D0ZUV/Sol_trusted_identity](https://github.com/MWT-D0ZUV/Sol_trusted_identity)。清单的 repository 指向该仓库；author.url 也使用项目页作为联系入口，作者标记仍沿用 Sol。
 
 本插件不控制画像准入、不更改数据库、不提供权限认证或安全鉴权。包内 SHA256SUMS.txt 可核对发布文件完整性。
